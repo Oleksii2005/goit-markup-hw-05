@@ -605,21 +605,12 @@ body{
     line-height: calc(24 / 16);
     color: var(--other-bg-cl);
 }
-.portfolio-card-link{
-    
-}
-.overlay-box-text:hover,
-.overlay-box-text:focus{
-    transform: translateY(0);
-}
+
 /* .overlay-box:hover,
 .overlay-box:focus{
     transform: translateY(0);
 } */
-.portfolio-card-link:hover,
-.portfolio-card-link:focus,
-.overlay-box-text:hover,  
-.overlay-box-text:focus{  
+.portfolio-card-link:hover .overlay-box-text{  
     transform: translate(0);      
 }
 /* .over:hover,
